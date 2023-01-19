@@ -1,0 +1,42 @@
+html {
+  scroll-behavior: smooth;
+}
+
+hr {
+  width: 70%;
+  max-width: 800px;
+  margin-left: 0;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  background-color: black;
+  height: 55px !important;
+  vertical-align: middle;
+}
+
+.title {
+  position: relative;
+  color: azure;
+  font-size: 25px;
+  padding-left: 150px;
+  padding-top: 20px;
+}
+
+ul.druber-list {
+  list-style: none;
+  color: white;
+  padding-right: 20px;
+}
+
+ul.druber-list li {
+  display: inline-block;
+  padding: 0 1rem;
+  font-size: 18px;
+}
+
+ul.druber-list li:not(:last-child) {
+  border-right: 1px solid white;
+}
