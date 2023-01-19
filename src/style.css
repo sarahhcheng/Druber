@@ -26,9 +26,10 @@ hr {
 }
 
 ul.druber-list {
+  position: relative;
   list-style: none;
   color: white;
-  padding-right: 20px;
+  padding-right: 40px;
 }
 
 ul.druber-list li {
@@ -39,4 +40,22 @@ ul.druber-list li {
 
 ul.druber-list li:not(:last-child) {
   border-right: 1px solid white;
+}
+
+@media (max-width: 750px) {
+  .title {
+    padding-left: 5%;
+    position: relative;
+    color: azure;
+    font-size: 25px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  ul.druber-list {
+    position: relative;
+    list-style: none;
+    color: white;
+  }
 }
