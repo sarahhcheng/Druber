@@ -59,6 +59,7 @@ ul.druber-list li:not(:last-child) {
   text-align: center;
   border-radius: 16px;
   background-color: #edebe6;
+  padding-bottom: 5%;
 }
 
 .card-title {
@@ -74,16 +75,23 @@ p {
   padding-left: 20px;
   text-align: left;
   font-size: 20px;
-  padding-bottom: 20%;
   width: 100%;
 }
 
 .image {
-  padding-top: 30px;
+  padding-top: 10px;
+  border-radius: 20px;
+  display: inline-block;
+  border-radius: 20px;
 }
 
 img {
+  border-radius: 20px;
   max-width: 400px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
 }
 /* Design to fit mobile users: */
 
