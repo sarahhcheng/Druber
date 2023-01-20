@@ -8,10 +8,12 @@ You and your friends are developing a new start-up called DRUBER, a drone-based 
 
 Let's dive into creating a web page that looks great for desktop users.
 
-<img src="desktop.png" width="400">
-As you can see from the image above, the padding and position of the elements look great, right? We can see that it does on a 1920x1080 screen, but how would the design look if we switch to a mobile display without refactoring or changing any of the existing code?
+<img src="desktop.png" width="800">
+As you can see from the image above, the padding and position of the elements look great, right? We can see that it does on a 1920x1080 screen, but how would the design look if we switch to a mobile display without refactoring or changing any of the existing code? Would it look great as well?
 
-It seems like the positioning of the elements were suitable for desktop display but not for mobile display. So how can we fix the issue so that it looks good for both?
+<img src="smaller-display-before.png" width="400">
+
+It seems like the positioning of the elements were suitable for desktop display but not for mobile display. Since we wanted left padding for both the text and images in the desktop display, our code reflected that, but unfortunately, it doesn't look good on displays with 750px widths. So how can we fix the issue so that it looks good for both?
 
 ## Solution
 
